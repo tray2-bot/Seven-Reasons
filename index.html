@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>For Femi ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =================================
+         BACKGROUND
+    ================================== -->
+
+    <div class="stars"></div>
+
+    <div class="moon"></div>
+
+    <div class="floating-hearts">
+        <span>♡</span>
+        <span>♡</span>
+        <span>✦</span>
+        <span>♡</span>
+        <span>✧</span>
+        <span>♡</span>
+        <span>✦</span>
+    </div>
+
+
+    <!-- =================================
+         TOP NAVIGATION
+    ================================== -->
+
+    <header class="top-bar">
+
+        <div class="logo">
+            T <span>♡</span> F
+        </div>
+
+        <div class="page-counter">
+            <span id="pageNumber">01</span>
+            /
+            <span>09</span>
+        </div>
+
+    </header>
+
+
+    <!-- =================================
+         MAIN WEBSITE
+    ================================== -->
+
+    <main>
+
+
+        <!-- =================================
+             PAGE 1 — INTRO
+        ================================== -->
+
+        <section class="page active" id="page1">
+
+            <div class="intro">
+
+                <p class="eyebrow">
+                    A little something for you
+                </p>
+
+                <div class="intro-heart">
+                    ♡
+                </div>
+
+                <h1>
+                    For <span>Femi</span>
+                </h1>
+
+                <p class="intro-description">
+                    Seven little letters about the things
+                    I love about you.
+                </p>
+
+                <button class="primary-button"
+                        onclick="goToPage(2)">
+                    Open My Heart
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 2 — PHOTO GALLERY
+        ================================== -->
+
+        <section class="page" id="page2">
+
+            <div class="gallery-section">
+
+                <p class="eyebrow">
+                    OUR LITTLE WORLD
+                </p>
+
+                <h2>
+                    Moments I want to <span>remember</span>
+                </h2>
+
+                <p class="gallery-intro">
+                    Some memories don't need many words.
+                    They just need to be remembered.
+                </p>
+
+
+                <div class="gallery">
+
+                    <div class="polaroid polaroid-one">
+                        <img src="femi.PNG"
+                             alt="Our memory">
+                        <span>♡</span>
+                    </div>
+
+                    <div class="polaroid polaroid-two">
+                        <img src="tracy.PNG"
+                             alt="Our memory">
+                        <span>♡</span>
+                    </div>
+
+                    <div class="polaroid polaroid-three">
+                        <img src="US.PNG"
+                             alt="Our memory">
+                        <span>♡</span>
+                    </div>
+
+                    <div class="polaroid polaroid-four">
+                        <img src="femi2.PNG"
+                             alt="Our memory">
+                        <span>♡</span>
+                    </div>
+
+                    <div class="polaroid polaroid-five">
+                        <img src="tracy2.PNG"
+                             alt="Our memory">
+                        <span>♡</span>
+                    </div>
+                    
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(1)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(3)">
+                        Seven Letters →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 3 — LETTER 1
+        ================================== -->
+
+        <section class="page letter-page" id="page3">
+
+            <div class="letter-container">
+
+                <p class="letter-number">
+                    LETTER ONE · 01 / 07
+                </p>
+
+
+                <div class="sealed-letter"
+                     onclick="openLetter(1)"
+                     id="envelope1">
+
+                    <div class="envelope-back"></div>
+
+                    <div class="envelope-flap"></div>
+
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        T
+                        <span>♡</span>
+                        F
+                    </div>
+
+                    <p class="open-label">
+                        Tap to open
+                    </p>
+
+                </div>
+
+
+                <div class="letter-message"
+                     id="message1">
+
+                    <p class="message-small">
+                        THE FIRST THING
+                    </p>
+
+                    <h2>
+                        The way you make me <span>feel</span>
+                    </h2>
+
+                    <p>
+                        I love the way you make me feel when
+                        we're close. There is something about
+                        being near you that makes everything
+                        else seem to fade away for a while.
+
+                        <br><br>
+
+                        You have this way of making ordinary
+                        moments feel intense, meaningful,
+                        and impossible to forget.
+                    </p>
+
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(2)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(4)">
+                        Next Letter →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 4 — LETTER 2
+        ================================== -->
+
+        <section class="page letter-page" id="page4">
+
+            <div class="letter-container">
+
+                <p class="letter-number">
+                    LETTER TWO · 02 / 07
+                </p>
+
+
+                <div class="sealed-letter"
+                     onclick="openLetter(2)"
+                     id="envelope2">
+
+                    <div class="envelope-back"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        T
+                        <span>♡</span>
+                        F
+                    </div>
+
+                    <p class="open-label">
+                        Tap to open
+                    </p>
+
+                </div>
+
+
+                <div class="letter-message"
+                     id="message2">
+
+                    <p class="message-small">
+                        THE SECOND THING
+                    </p>
+
+                    <h2>
+                        Your smile and your <span>heart</span>
+                    </h2>
+
+                    <p>
+                        I love your smile, and I love the person
+                        behind it even more.
+
+                        <br><br>
+
+                        You're a walking green flag, someone
+                        whose warmth, kindness, and sincerity
+                        make you so easy to appreciate and trust.
+
+                        <br><br>
+
+                        There is something genuinely special
+                        about the way you are.
+                    </p>
+
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(3)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(5)">
+                        Next Letter →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 5 — LETTER 3
+        ================================== -->
+
+        <section class="page letter-page" id="page5">
+
+            <div class="letter-container">
+
+                <p class="letter-number">
+                    LETTER THREE · 03 / 07
+                </p>
+
+
+                <div class="sealed-letter"
+                     onclick="openLetter(3)"
+                     id="envelope3">
+
+                    <div class="envelope-back"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        T
+                        <span>♡</span>
+                        F
+                    </div>
+
+                    <p class="open-label">
+                        Tap to open
+                    </p>
+
+                </div>
+
+
+                <div class="letter-message"
+                     id="message3">
+
+                    <p class="message-small">
+                        THE THIRD THING
+                    </p>
+
+                    <h2>
+                        The way you make me feel <span>special</span>
+                    </h2>
+
+                    <p>
+                        I love how you do so many thoughtful
+                        things without me ever having to ask.
+
+                        <br><br>
+
+                        I love how you think of me, include me,
+                        and make space for me in your world.
+
+                        <br><br>
+
+                        You remind me that sometimes love
+                        lives in the little things people do
+                        without even realizing how much
+                        they mean.
+                    </p>
+
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(4)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(6)">
+                        Next Letter →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 6 — LETTER 4
+        ================================== -->
+
+        <section class="page letter-page" id="page6">
+
+            <div class="letter-container">
+
+                <p class="letter-number">
+                    LETTER FOUR · 04 / 07
+                </p>
+
+
+                <div class="sealed-letter"
+                     onclick="openLetter(4)"
+                     id="envelope4">
+
+                    <div class="envelope-back"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        T
+                        <span>♡</span>
+                        F
+                    </div>
+
+                    <p class="open-label">
+                        Tap to open
+                    </p>
+
+                </div>
+
+
+                <div class="letter-message"
+                     id="message4">
+
+                    <p class="message-small">
+                        THE FOURTH THING
+                    </p>
+
+                    <h2>
+                        Your care and the way you <span>love</span>
+                    </h2>
+
+                    <p>
+                        I love how you add me to your day.
+
+                        <br><br>
+
+                        I love how you listen like every word
+                        matters, and how you make room for my
+                        feelings instead of brushing them aside.
+
+                        <br><br>
+
+                        You listen. You understand.
+                        You validate me.
+
+                        <br><br>
+
+                        And somehow, you make me feel like
+                        what I feel matters to you too.
+                    </p>
+
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(5)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(7)">
+                        Next Letter →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 7 — LETTER 5
+        ================================== -->
+
+        <section class="page letter-page" id="page7">
+
+            <div class="letter-container">
+
+                <p class="letter-number">
+                    LETTER FIVE · 05 / 07
+                </p>
+
+
+                <div class="sealed-letter"
+                     onclick="openLetter(5)"
+                     id="envelope5">
+
+                    <div class="envelope-back"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        T
+                        <span>♡</span>
+                        F
+                    </div>
+
+                    <p class="open-label">
+                        Tap to open
+                    </p>
+
+                </div>
+
+
+                <div class="letter-message"
+                     id="message5">
+
+                    <p class="message-small">
+                        THE FIFTH THING
+                    </p>
+
+                    <h2>
+                        The way you <span>look out for me</span>
+                    </h2>
+
+                    <p>
+                        I love how gently you treat me and how
+                        you always want to be there when I need you.
+
+                        <br><br>
+
+                        I love how you want to hold me when I'm
+                        having a difficult day and help me through
+                        the things that worry me.
+
+                        <br><br>
+
+                        You make me feel like I don't have to
+                        face every difficult moment completely
+                        on my own.
+                    </p>
+
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(6)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(8)">
+                        Next Letter →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 8 — LETTER 6
+        ================================== -->
+
+        <section class="page letter-page" id="page8">
+
+            <div class="letter-container">
+
+                <p class="letter-number">
+                    LETTER SIX · 06 / 07
+                </p>
+
+
+                <div class="sealed-letter"
+                     onclick="openLetter(6)"
+                     id="envelope6">
+
+                    <div class="envelope-back"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        T
+                        <span>♡</span>
+                        F
+                    </div>
+
+                    <p class="open-label">
+                        Tap to open
+                    </p>
+
+                </div>
+
+
+                <div class="letter-message"
+                     id="message6">
+
+                    <p class="message-small">
+                        THE SIXTH THING
+                    </p>
+
+                    <h2>
+                        The man <span>you are</span>
+                    </h2>
+
+                    <p>
+                        I love how in check you are with your
+                        emotions and how you treat the people
+                        around you.
+
+                        <br><br>
+
+                        I love the way you show up in the
+                        different parts of your life.
+
+                        <br><br>
+
+                        You're emotionally present,
+                        supportive, dependable, and intentional.
+
+                        <br><br>
+
+                        And I love knowing that the desire
+                        to be together is something we share.
+                    </p>
+
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(7)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(9)">
+                        Final Letter →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 9 — LETTER 7
+        ================================== -->
+
+        <section class="page letter-page final-reason"
+                 id="page9">
+
+            <div class="letter-container">
+
+                <p class="letter-number">
+                    LETTER SEVEN · 07 / 07
+                </p>
+
+
+                <div class="sealed-letter"
+                     onclick="openLetter(7)"
+                     id="envelope7">
+
+                    <div class="envelope-back"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        T
+                        <span>♡</span>
+                        F
+                    </div>
+
+                    <p class="open-label">
+                        The last one...
+                    </p>
+
+                </div>
+
+
+                <div class="letter-message"
+                     id="message7">
+
+                    <p class="message-small">
+                        THE LAST THING
+                    </p>
+
+                    <h2>
+                        Perfect timing in an <span>imperfect moment</span>
+                    </h2>
+
+                    <p>
+                        I know nothing is permanent.
+
+                        <br><br>
+
+                        And maybe it's selfish that I want you
+                        all to myself, but you didn't come at
+                        the right time...
+
+                        <br><br>
+
+                        Somehow, it still felt like perfect timing.
+
+                        <br><br>
+
+                        So all I want is to enjoy every moment
+                        we have together, exactly as it comes.
+
+                        <br><br>
+
+                        Because you've become one of those
+                        people who somehow appears in the
+                        smallest things.
+
+                        <br><br>
+
+                        In the love stories I watch.
+                        In little moments that touch me deeply.
+                        In thoughts that arrive when I least
+                        expect them.
+
+                        <br><br>
+
+                        Somehow, you made your way into
+                        my world in a way I don't think
+                        I'll ever forget.
+                    </p>
+
+                </div>
+
+
+                <div class="navigation">
+
+                    <button class="secondary-button"
+                            onclick="goToPage(8)">
+                        ← Back
+                    </button>
+
+                    <button class="primary-button"
+                            onclick="goToPage(10)">
+                        Read My Letter ♡
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PAGE 10 — FINAL LOVE LETTER
+        ================================== -->
+
+        <section class="page final-page"
+                 id="page10">
+
+            <div class="final-letter">
+
+                <div class="final-heart">
+                    ♡
+                </div>
+
+                <p class="eyebrow">
+                    ONE LAST THING
+                </p>
+
+                <h2>
+                    Dear <span>Femi</span>,
+                </h2>
+
+                <p class="final-text">
+
+                    Seven reasons were never going to be
+                    enough.
+
+                    <br><br>
+
+                    There are probably hundreds of little
+                    things I could write about you.
+
+                    The way you make me smile.
+                    The way you make ordinary moments
+                    feel different.
+                    The way you make me feel seen.
+
+                    <br><br>
+
+                    I don't know exactly where every
+                    moment will take us, but I know that
+                    I'm grateful for the moments we have.
+
+                    <br><br>
+
+                    So if you ever wonder whether you
+                    matter to me...
+
+                    <br><br>
+
+                    You do.
+
+                    <br><br>
+
+                    More than these seven letters could
+                    ever explain.
+
+                    <br><br>
+
+                    <span class="signature">
+                        With love,
+                        <br>
+                        Tracy ♡
+                    </span>
+
+                </p>
+
+
+                <button class="primary-button"
+                        onclick="restartWebsite()">
+                    Read It Again ♡
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================
+         JAVASCRIPT
+    ================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
